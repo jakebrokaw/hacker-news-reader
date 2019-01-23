@@ -10,7 +10,7 @@ This is a simple, React web app that displays all the newest Hacker News stories
 ### How to run the app
 
 1. Clone the repo via SSH:
-  * `git clone git@github.com:jakebrokaw/hacker-news-reader.git`
+    1. `git clone git@github.com:jakebrokaw/hacker-news-reader.git`
 2. cd into the `hacker-news-reader` folder in your terminal.
 3. Run `npm install` in your terminal.
 4. Run `npm start` in your terminal and the app will open in a new tab in your browser.
