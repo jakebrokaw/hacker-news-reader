@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a simple, React web app that displays all the newest Hacker News stories (from newest to oldest). It utilizes an infinite scroll feature (similar to a Facebook or Twitter feed), pulling in twenty stories at a time.
 
-![Screenshot of the web app](https://jacobrokaw.com/images/hn-reader.jpg "Hacker News Reader")
+![Screenshot of the web app](http://jacobrokaw.com/images/hn-reader.jpg)
 
 
 ### How to run the app
