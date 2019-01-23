@@ -15,9 +15,18 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
+  color: ${({ theme }) => theme.text};
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 8px;
+`;
+
+export const Subtitle = styled.p`
   color: ${({ theme }) => theme.textSecondary};
-  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 44px;
   font-weight: 300;
-  margin-top: 24px;
-  margin-bottom: 26px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
 `;

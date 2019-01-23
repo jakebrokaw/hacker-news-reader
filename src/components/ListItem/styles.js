@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Item = styled.li`
-  border-bottom: 1px solid ${({ theme }) => theme.border};
+  border-bottom: 2px solid ${({ theme }) => theme.border};
   padding: 14px 24px;
 
   &:last-child {
@@ -9,7 +9,7 @@ export const Item = styled.li`
   }
 `;
 
-export const Title = styled.h3`
+export const Title = styled.h1`
   color: ${({ theme }) => theme.text};
   margin-top: 0;
   margin-bottom: 6px;
@@ -19,7 +19,7 @@ export const Title = styled.h3`
 `;
 
 export const Host = styled.span`
-  color: ${({ theme }) => theme.textSecondary};
+  color: ${({ theme }) => theme.accent};
   font-size: 12px;
 `;
 

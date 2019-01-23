@@ -4,10 +4,12 @@ import { Provider } from 'react-redux';
 import configureStore from 'store';
 import App from 'components/App';
 import GlobalStyles from 'styles/globals';
+import loadInitialState from 'store/middleware/localStorageMiddleware/loadInitialState';
 import * as serviceWorker from './serviceWorker';
 
 const renderApp = () => {
-  const store = configureStore();
+  const initialState = loadInitialState();
+  const store = configureStore(initialState);
 
   if (process.env.NODE_ENV !== 'production') {
     console.log('Initial state ->');

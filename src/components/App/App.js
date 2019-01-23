@@ -5,7 +5,7 @@ import List from 'components/List';
 import Loader from 'components/Loader';
 import { colorsDark } from 'styles/palette';
 
-import { Wrapper, Title } from './styles';
+import { Wrapper, Title, Subtitle } from './styles';
 
 class App extends Component {
   componentDidMount() {
@@ -25,7 +25,8 @@ class App extends Component {
       <ThemeProvider theme={colorsDark}>
         <div>
           <Wrapper>
-            <Title>Hacker News Reader</Title>
+            <Title>Hacker News</Title>
+            <Subtitle>Web app &amp; theme by Jake Brokaw</Subtitle>
             <InfiniteScroll
               dataLength={stories.length}
               next={this.fetchStories}
