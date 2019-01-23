@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Default API will be your root
 const API_ROOT = process.env.URL || 'http://localhost:3000/';
-const TIMEOUT = 2000;
+const TIMEOUT = 20000;
 const HEADERS = {
   'Content-Type': 'application/json',
   Accept: 'application/json',

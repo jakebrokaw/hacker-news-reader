@@ -1,6 +1,6 @@
 import hackerNewsApi from 'services/hackerNewsApi';
 
-const NS = '@hrReader/story';
+const NS = '@hnReader/story';
 
 export const actionTypes = {
   FETCH_STORY_IDS_REQUEST: `${NS}/FETCH_STORY_IDS_REQUEST`,

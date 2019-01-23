@@ -8,14 +8,13 @@ import { colorsDark } from 'styles/palette';
 import { Wrapper, Title } from './styles';
 
 class App extends Component {
-
-  async componentDidMount() {
+  componentDidMount() {
     this.props.fetchStoriesFirstPage();
   }
 
   fetchStories = () => {
     const { storyIds, page, fetchStories, isFetching } = this.props;
-    if (isFetching) {
+    if (!isFetching) {
       fetchStories({ storyIds, page });
     }
   };

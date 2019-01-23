@@ -5,11 +5,3 @@ export const colorsDark = {
   textSecondary: '#848886',
   border: '#272727',
 }
-
-export const colorsLight = {
-  background: '#EAEAEA',
-  backgroundSecondary: '#F8F8F8',
-  text: '#848886',
-  textSecondary: '#AAAAAA',
-  border: '#EAEAEA',
-}
