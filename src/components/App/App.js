@@ -26,7 +26,7 @@ class App extends Component {
         <div>
           <Wrapper>
             <Title>Hacker News</Title>
-            <Subtitle>Web app &amp; theme by Jake Brokaw</Subtitle>
+            <Subtitle>Web app &amp; theme by <a href="http://jacobrokaw.com" target="_blank" rel="noopener noreferrer">Jake Brokaw</a></Subtitle>
             <InfiniteScroll
               dataLength={stories.length}
               next={this.fetchStories}
